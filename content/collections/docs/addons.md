@@ -41,3 +41,11 @@ You can choose which edition is installed by entering it into your `config/stata
 ```
 
 Or, by choosing it from an addon's details view in the Control Panel.
+
+## Removing Addons
+
+So you want to remove that Addon you installed? You can easily do it useing Composer directly on the command line:
+
+``` shell
+composer remove vendor/package
+```
